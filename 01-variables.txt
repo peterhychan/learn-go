@@ -1,0 +1,7 @@
+- const
+- var
+- basic types in Go: int, float, complex,string
+- assign value in `=`
+- infer value in `:=`
+- automatically assigning Zero Values or Default Values
+  -> false for booleans, 0 for numeric types, "" for strings, and nil for pointers, functions, interfaces, slices, channels, and maps

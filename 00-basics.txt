@@ -1,0 +1,35 @@
+main.go
+```
+package main
+
+
+import "fmt"
+
+func main(){
+	fmt.Println("Hey there.")
+}
+```
+
+a. To compile a file
+```
+go build <filename.extension>
+```
+
+b. To execute the file
+```
+./<filename>
+```
+
+c. combination of a and b in one line
+```
+go run <filename.extension>
+```
+
+anatamy of a go program
+1. package declaration
+2. import statement 
+
+if you need reference for certain package or functions inside a package
+```
+go doc <packageName>
+```
