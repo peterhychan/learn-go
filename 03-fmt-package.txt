@@ -1,0 +1,43 @@
+fmt 
+- one of the core packages of Go
+- fmt.Println()
+	-> Print the statement in a new line
+- fmt.Print()
+	-> Print the statement on the original line
+- fmt.Printf()
+- fmt.Sprint()
+	-> doesn't print anything, but return a value
+- fmt.Sprintln()
+	-> return a value also; automatically includes spaces between arguments
+```
+Example:
+
+package main
+import "fmt"
+
+func main(){
+	wish := "I wish I will be %v"
+	adjective := "happy"
+	var completeSentence string
+	completeSentence = fmt.Sprintln(wish, adjective)
+	fmt.PrintLn(completeSentence)
+}
+```
+
+- fmt.Scan(&VARIABLE)
+```
+Example:
+fmt.Println("Who is your best friend ?") 
+ 
+var friend string 
+fmt.Scan(&friend)
+ 
+fmt.Printf("My best friend is %v.", friend) 
+```
+
+
+- %v => verb
+- %d => interpolate a number into a string
+- %f => interpolate a float into a string
+- %.f => limit how precise we want to interpolate a float into a string
+e.g. %.2f === 2 demical places
