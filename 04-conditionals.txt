@@ -1,0 +1,34 @@
+- ==
+- !=
+- >=
+- <=
+- &&
+- ||
+- !
+- if/else if/else
+- switch VARIABLE{
+	case "":
+		THEN
+	case "":
+		THEN
+	default:
+		THEN
+}
+
+-Scoped Short Declaration Statement
+```
+Example
+
+x := 8
+y := 9
+if product := x * y; product > 60 {
+  fmt.Println(product, "  is greater than 60")
+}
+
+
+switch season := "summer" ; season {
+case "summer"
+  fmt.Println("Go out and enjoy the sun!")
+}
+
+```
